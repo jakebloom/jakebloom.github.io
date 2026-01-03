@@ -7,11 +7,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
     background: rgba(160, 160, 160, 0.7);
 }
 
@@ -45,4 +40,13 @@ h1 {
     .container {
         padding: 1.5rem;
     }
+}
+
+@font-face {
+    font-family: fransans;
+    src: url('/assets/font/FranSans-Solid.woff');
+}
+
+.fran-sans {
+    font-family: 'fransans';
 }
