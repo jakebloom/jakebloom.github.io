@@ -41,12 +41,3 @@ h1 {
         padding: 1.5rem;
     }
 }
-
-@font-face {
-    font-family: fransans;
-    src: url('/assets/font/FranSans-Solid.woff');
-}
-
-.fran-sans {
-    font-family: 'fransans';
-}
